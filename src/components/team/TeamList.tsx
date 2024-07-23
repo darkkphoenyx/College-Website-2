@@ -1,14 +1,14 @@
 const people = [
   {
     name: "Rohan Shreshta",
-    role: "Fullstack Developer",
+    role: "Full-stack Developer",
     imageUrl:
       "https://media.licdn.com/dms/image/D5603AQEd4WgVaUX8Jg/profile-displayphoto-shrink_200_200/0/1709307661564?e=1727308800&v=beta&t=G1mtByI1gMEX6PnQG57x_ii3EkBcDkz0Py9hzV5A-UM",
     link: "https://www.linkedin.com/in/rohan-shrestha07/",
   },
   {
     name: "Deepesh Sunuwar",
-    role: "DBA/Backend/Fontend",
+    role: "Full-stack Developer & DBA",
     imageUrl:
       "https://media.licdn.com/dms/image/D5603AQEBB3hnTksLvg/profile-displayphoto-shrink_800_800/0/1718269561668?e=1727308800&v=beta&t=tBcTZVoZ49x8a_JXUzo1IR_p3nD6XN3aGL4-fOQB7cA",
     link: "https://www.linkedin.com/in/deepeshsunuwar/",
@@ -56,23 +56,17 @@ const people = [
     imageUrl: "",
     link: "",
   },
-  // {
-  //   name: "Sudan Gautam",
-  //   role: "Security Analyst",
-  //   imageUrl: "",
-  //   link: "",
-  // },
 ];
 
 export default function TeamList() {
   return (
-    <div className="bg-white h-full pb-20">
+    <div className="bg-white h-full">
       <img
         className="h-96 w-96 mx-auto"
         src="./assets/teamwork.png"
         alt="Team work photo"
       />
-      <div className="grid grid-flow-row mx-5 py-10 ">
+      <div className="grid grid-flow-row mx-5">
         <div className="flex items-center justify-center text-center">
           <div>
             <h1 className="text-5xl text-black font-bold tracking-tight uppercase">
@@ -87,10 +81,10 @@ export default function TeamList() {
             </p>
           </div>
         </div>
-        <ul role="list" className="grid gap-1 ml-5 gap-y-12 sm:grid-cols-3">
+        <ul role="list" className="grid gap-20 mx-auto mb-10 gap-y-12 grid-cols-3">
           {people.map((person) => (
             <li key={person.name}>
-              <div className="flex items-center gap-x-6 ml-10 mt-16">
+              <div className="flex items-center gap-x-6 mx-10 mt-8">
                 <img
                   alt="Team Member Name"
                   src={person.imageUrl}
