@@ -28,7 +28,7 @@ const people = [
   },
   {
     name: "Subodh Nepal",
-    role: "Ctrl+C Ctrl+V Developer",
+    role: "Frontend Developer",
     imageUrl: "./assets/devin.png",
     link: "",
   },
