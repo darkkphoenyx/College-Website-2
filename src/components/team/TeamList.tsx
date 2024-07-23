@@ -29,13 +29,13 @@ const people = [
   {
     name: "Subodh Nepal",
     role: "Ctrl+C Ctrl+V Developer",
-    imageUrl: "./src/assets/devin.png",
+    imageUrl: "./assets/devin.png",
     link: "",
   },
   {
     name: "Kushal Kharel",
     role: "Frontend Developer",
-    imageUrl: "./src/assets/kushal.jpg",
+    imageUrl: "./assets/kushal.jpg",
     link: "",
   },
   {
@@ -69,7 +69,7 @@ export default function TeamList() {
     <div className="bg-white h-full pb-20">
       <img
         className="h-96 w-96 mx-auto"
-        src="./src/assets/teamwork.png"
+        src="./assets/teamwork.png"
         alt="Team work photo"
       />
       <div className="grid grid-flow-row mx-5 py-10 ">

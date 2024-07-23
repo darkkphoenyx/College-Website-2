@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className=" ">
       <div className=" w-full min-h-screen grid grid-flow-row">
-        <div className="w-full  grid grid-flow-col bg-[url(./src/assets/aboutUs-background.png)] bg-cover bg-no-repeat">
+        <div className="w-full  grid grid-flow-col bg-[url(./assets/aboutUs-background.png)] bg-cover bg-no-repeat">
           <div className="py-32 pr-10 w-[800px] pl-20">
             <p className="italic pl-1">
               Inspiration, Innovation and Discovery.
@@ -35,7 +35,7 @@ export default function About() {
           <div className="flex items-center justify-center">
             <img
               className="h-16 w-16"
-              src="./src/assets/hat.png"
+              src="./assets/hat.png"
               alt="graduation_cap"
             />
             <div>
@@ -48,7 +48,7 @@ export default function About() {
           <div className="flex items-center justify-center">
             <img
               className="h-12 w-16 "
-              src="./src/assets/bell.png"
+              src="./assets/bell.png"
               alt="bell"
             />
             <div>
@@ -60,7 +60,7 @@ export default function About() {
           <div className="flex items-center justify-center">
             <img
               className="h-11 w-16"
-              src="./src/assets/bookStand.png"
+              src="./assets/bookStand.png"
               alt="book stand"
             />
             <div>

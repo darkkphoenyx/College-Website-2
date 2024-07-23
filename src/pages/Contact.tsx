@@ -15,7 +15,7 @@ export default function Contact() {
                 target="_blank"
                 href="https://mail.google.com/mail/u/0/#inbox?compose=deepgeneral33@gmail.com"
               >
-                <img className="pr-2" src="./src/assets/mail.svg" alt="mail" />
+                <img className="pr-2" src="./assets/mail.svg" alt="mail" />
                 Shoot us an email
               </a>
               <a
@@ -25,7 +25,7 @@ export default function Contact() {
               >
                 <img
                   className="pr-2"
-                  src="./src/assets/linkedin.svg"
+                  src="./assets/linkedin.svg"
                   alt="linkedin"
                 />
                 Message us on LinkedIn

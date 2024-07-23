@@ -6,7 +6,7 @@ export default function Logo() {
       <Link to="/">
         <img
           className=" object-fill mt-3.5"
-          src="./src/assets/hat.png"
+          src="./assets/hat.png"
           alt="Logo"
         />
       </Link>

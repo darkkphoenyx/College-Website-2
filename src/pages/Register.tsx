@@ -114,7 +114,7 @@ export default function Register() {
             </div>
             <div className="mt-28 ">
               <img
-                src="./src/assets/registration-illustration.png"
+                src="./assets/registration-illustration.png"
                 alt="registration image"
               />
             </div>
