@@ -60,10 +60,10 @@ export default function Header() {
           <div className="col-span-3">
             <ul className="my-9 text-center  border-gray-700">
               <Link
-                to={"/register"}
-                className="mx-6 text-white px-3 py-2 rounded-2xl bg-[#6D2DF6] hover:bg-[#8450f5] font-bold transition-all cursor-pointer"
+                to={"/login"}
+                className="mx-6 font-semibold text-white px-4 py-2 rounded-2xl bg-[#6D2DF6] hover:bg-[#8450f5] transition-all cursor-pointer"
               >
-                Register
+                Login
               </Link>
             </ul>
           </div>
