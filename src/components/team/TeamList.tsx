@@ -56,12 +56,6 @@ const people = [
     imageUrl: "",
     link: "",
   },
-  // {
-  //   name: "Sudan Gautam",
-  //   role: "Security Analyst",
-  //   imageUrl: "",
-  //   link: "",
-  // },
 ];
 
 export default function TeamList() {
@@ -87,7 +81,7 @@ export default function TeamList() {
             </p>
           </div>
         </div>
-        <ul role="list" className="grid gap-1 ml-5 gap-y-12 sm:grid-cols-3">
+        <ul role="list" className="grid gap-20 mx-auto  gap-y-12 grid-cols-3">
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6 ml-10 mt-16">
