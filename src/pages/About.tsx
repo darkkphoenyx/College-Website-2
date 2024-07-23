@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className=" ">
       <div className=" w-full min-h-screen grid grid-flow-row">
-        <div className="w-full  grid grid-flow-col bg-[url(./assets/aboutUs-background.png)] bg-cover bg-no-repeat">
+        <div className="w-full  grid grid-flow-col bg-[url(./assets/background-girl.png)] bg-cover bg-no-repeat">
           <div className="py-32 pr-10 w-[800px] pl-20">
             <p className="italic pl-1">
               Inspiration, Innovation and Discovery.
