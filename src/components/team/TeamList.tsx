@@ -1,14 +1,14 @@
 const people = [
   {
     name: "Rohan Shreshta",
-    role: "Fullstack Developer",
+    role: "Full-stack Developer",
     imageUrl:
       "https://media.licdn.com/dms/image/D5603AQEd4WgVaUX8Jg/profile-displayphoto-shrink_200_200/0/1709307661564?e=1727308800&v=beta&t=G1mtByI1gMEX6PnQG57x_ii3EkBcDkz0Py9hzV5A-UM",
     link: "https://www.linkedin.com/in/rohan-shrestha07/",
   },
   {
     name: "Deepesh Sunuwar",
-    role: "DBA/Backend/Fontend",
+    role: "Full-stack Developer & DBA",
     imageUrl:
       "https://media.licdn.com/dms/image/D5603AQEBB3hnTksLvg/profile-displayphoto-shrink_800_800/0/1718269561668?e=1727308800&v=beta&t=tBcTZVoZ49x8a_JXUzo1IR_p3nD6XN3aGL4-fOQB7cA",
     link: "https://www.linkedin.com/in/deepeshsunuwar/",
