@@ -17,7 +17,7 @@ export default function Header() {
               Join Now
             </span>
           </Link>
-          We're announcing the enrolement of this year, starting since July 10.
+          We're announcing the enrolement of this year, starting from July 10.
         </p>
       </div>
       <div className="bg-white sticky top-0 w-[100%] border-gray-500 border-b">
