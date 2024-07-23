@@ -60,13 +60,13 @@ const people = [
 
 export default function TeamList() {
   return (
-    <div className="bg-white h-full pb-20">
+    <div className="bg-white h-full">
       <img
         className="h-96 w-96 mx-auto"
         src="./assets/teamwork.png"
         alt="Team work photo"
       />
-      <div className="grid grid-flow-row mx-5 py-10 ">
+      <div className="grid grid-flow-row mx-5">
         <div className="flex items-center justify-center text-center">
           <div>
             <h1 className="text-5xl text-black font-bold tracking-tight uppercase">
