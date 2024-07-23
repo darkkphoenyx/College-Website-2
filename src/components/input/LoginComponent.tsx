@@ -25,7 +25,7 @@ return (
             className=" w-full placeholder:text-gray-800 placeholder:font-normal text-black font-normal px-2 p-1 outline-none bg-transparent "
             />
         </div>
-        <div className="col-span-1 hover:text-gray-800 text-white p-1 overflow-hidden mx-auto w-full">
+        <div className="col-span-1 hover:text-gray-800 text-white overflow-hidden mx-auto w-full">
             <img src="./assets/account.svg" alt="Account Icon" />
         </div>
         </div>

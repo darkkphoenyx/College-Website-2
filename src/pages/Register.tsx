@@ -4,8 +4,10 @@ export default function Register() {
       <div>
         <div className=" h-max container mx-auto ">
           <div className="mx-6 grid h-full grid-cols-2 gap-2">
-            <div className="bg-[#C4DFF2] text-black rounded-2xl border-gray-500 p-8 border mt-10 h-fit">
-              <h1 className="text-center  font-bold text-4xl">Registration</h1>
+            <div className="bg-[#C4DFF2] text-black rounded-2xl border-gray-500 p-8 border mt-10 h-fit shadow-2xl">
+              <h1 className="text-center text-[#6A2DE9]  font-bold text-4xl">
+                Registration
+              </h1>
               <form className="form text-md">
                 <div className="input-box mt-6">
                   <label className="flex w-full text-md font-semibold">
@@ -114,6 +116,7 @@ export default function Register() {
             </div>
             <div className="my-auto mx-auto">
               <img
+                className="rounded-3xl pl-10"
                 src="./assets/registration-illustration.png"
                 alt="registration image"
               />
