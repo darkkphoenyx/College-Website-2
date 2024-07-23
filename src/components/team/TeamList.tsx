@@ -81,10 +81,10 @@ export default function TeamList() {
             </p>
           </div>
         </div>
-        <ul role="list" className="grid gap-20 mx-auto  gap-y-12 grid-cols-3">
+        <ul role="list" className="grid gap-20 mx-auto mb-10 gap-y-12 grid-cols-3">
           {people.map((person) => (
             <li key={person.name}>
-              <div className="flex items-center gap-x-6 ml-10 mt-16">
+              <div className="flex items-center gap-x-6 mx-10 mt-8">
                 <img
                   alt="Team Member Name"
                   src={person.imageUrl}
