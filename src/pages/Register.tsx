@@ -1,5 +1,3 @@
-import GuestLayout from "../layouts/GuestLayout";
-
 export default function Register() {
   return (
     <>

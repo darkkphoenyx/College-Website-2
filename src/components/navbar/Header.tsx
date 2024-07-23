@@ -1,9 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../logo/Logo";
-import { useState } from "react";
 
 export default function Header() {
-  const [enabled, setEnabled] = useState(false);
   const location = useLocation();
 
   const listStyle =

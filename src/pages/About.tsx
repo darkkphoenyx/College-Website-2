@@ -1,5 +1,3 @@
-import React from "react";
-import Team from "../components/team/TeamList";
 import { Link } from "react-router-dom";
 
 export default function About() {

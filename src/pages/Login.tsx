@@ -1,4 +1,3 @@
-import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { Link } from "react-router-dom";
 
@@ -14,7 +13,7 @@ export default function Login() {
     formState: { errors },
   } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = (data) => {
+  const onSubmit: SubmitHandler<Inputs> = () => {
     // api call
     alert("Login functionality");
   };
