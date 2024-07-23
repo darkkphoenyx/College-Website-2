@@ -19,60 +19,69 @@ export default function Login() {
   };
 
   return (
-    <div className=" h-screen container mx-auto ">
-      <div className="mx-6 grid h-full">
-        <div className="w-2/6 bg-black/80 text-black rounded-md border-gray-900 p-8 border mx-auto mt-32 h-fit">
-          <h1 className="text-center text-xl font-normal text-gray-400">
-            Access to your acccount
-            <div className="text-sm text-gray-500">
-              Login to access your personal account
-            </div>
-            <form method="post" onSubmit={handleSubmit(onSubmit)}>
-              <div className="my-6">
-                <label className="flex w-full text-sm">Email / Username</label>
-                <input
-                  type="email"
-                  {...register("email", {
-                    required: "Email field is required",
-                  })}
-                  className="w-full bg-slate-700 h-9 rounded-md px-3 border-none outline-none mt-1"
-                />
-                <div className="custom-error text-red-500 text-xs place-content-start w-full grid mt-0.5">
-                  {errors.email && errors.email.message}
+    <div className=" h-screen container">
+      <div className="ml-40 grid h-full ">
+        <div className="ml-10 w-fit bg-zinc-400 text-black rounded-2xl border-black py-12 px-10 border-none mt-28 h-fit drop-shadow-lg">
+            <h1 className="text-center text-5xl font-semibold text-black">
+              Login
+              </h1>
+              <div className="text-sm text-center mt-2 text-gray-700">
+                Login to access your personal account
+              </div>
+              <form method="post" onSubmit={handleSubmit(onSubmit)}>
+                <div className="mt-4">
+                  <label className="flex w-full text-md">
+                    Email / Username
+                  </label>
+                  <input
+                    type="email"
+                    {...register("email", {
+                      required: "Email field is required",
+                    })}
+                    className="w-full border-black border-2 bg-white h-9 rounded-xl px-3 outline-none mt-1"
+                  />
+                  <div className="custom-error text-red-500 text-xs place-content-start w-full grid mt-0.5">
+                    {errors.email && errors.email.message}
+                  </div>
                 </div>
-              </div>
-              <div>
-                <label className="flex w-full text-sm">Password</label>
-                <input
-                  type="password"
-                  {...register("password", {
-                    required: "Password field is required",
-                    min: 3,
-                  })}
-                  className="w-full bg-slate-700 h-9 rounded-md px-3 border-none outline-none mt-1"
-                />
-                <div className="custom-error text-red-500 text-xs place-content-start w-full grid mt-0.5">
-                  {errors.password && errors.password.message}
+                <div className="mt-4">
+                  <label className="flex w-full text-md">Password</label>
+                  <input
+                    type="password"
+                    {...register("password", {
+                      required: "Password field is required",
+                      min: 3,
+                    })}
+                    className="w-full border-2 border-black bg-white h-9 rounded-xl px-3 outline-none mt-1"
+                  />
+                  <div className="custom-error text-red-500 text-xs place-content-start w-full grid mt-0.5">
+                    {errors.password && errors.password.message}
+                  </div>
                 </div>
-              </div>
-              <div>
-                <button
-                  type="submit"
-                  className="w-full rounded-md h-9 hover:bg-slate-600 transition-all my-8 bg-slate-700"
-                >
-                  Login
-                </button>
-              </div>
-              <div>
-                <Link
-                  to={"forget-passsword"}
-                  className="text-xs w-full grid place-content-end"
-                >
-                  Forget Password ?
-                </Link>
-              </div>
-            </form>
-          </h1>
+                <div className="remeber-me mt-2">
+                  <label htmlFor="remberMe" className="font-normal">
+                    <input type="checkbox" />
+                      Remember me
+                  </label>
+                  <Link
+                    to={"forget-passsword"}
+                    className="ml-24 place-content-end font-medium"
+                  >
+                    Forget Password ?
+                  </Link>
+                </div>
+                <div>
+                  <button
+                    type="submit"
+                    className="mt-5 w-full text-xl font-semibold rounded-xl h-9 hover:bg-blue-500 transition-all bg-blue-600"
+                  >
+                    Login
+                  </button>
+                </div>
+                <div className="ml-16 mt-1">
+                  <p>Don't have account?{" "}<a className="font-medium" href="#">Register</a></p>
+                </div>
+              </form>
         </div>
       </div>
     </div>
