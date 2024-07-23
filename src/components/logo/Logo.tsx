@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "./../css/logo.css";
 
 export default function Logo() {
   return (
