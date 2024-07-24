@@ -60,6 +60,7 @@ const people = [
 
 export default function TeamList() {
   return (
+    <>
     <div className="bg-white h-full">
       <img
         className="h-96 w-96 mx-auto"
@@ -106,5 +107,6 @@ export default function TeamList() {
         </ul>
       </div>
     </div>
+    </>
   );
 }

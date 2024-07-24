@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Homepage() {
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[]);
   return (
     <div className="bg-slate-300 w-full h-screen">
       <div className="grid grid-flow-col grid-cols-2">
@@ -18,7 +22,7 @@ export default function Homepage() {
         </div>
 
         <div className="h-fit w-3/4 mt-28">
-          <img className="w-full h-full rounded-3xl drop-shadow-2xl" src="./public/assets/designfinal.jpg" alt="illustration" />
+          <img className="w-full h-full rounded-3xl shadow-2xl" src="/assets/designfinal.jpg" alt="illustration" />
         </div>
       </div>
     </div>
