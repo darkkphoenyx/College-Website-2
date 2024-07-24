@@ -26,7 +26,7 @@ export default function About() {
               </div>
               <div className="mt-5">
                 <Link to="/contact">
-                  <button className="bg-[#FEB856] text-white p-5 rounded-xl border-2 border-[#FEB856] font-serif font-semibold text-2xl hover:bg-white hover:text-yellow-500">
+                  <button className="bg-[#FEB856] text-white p-5 shadow-2xl rounded-xl border-2 border-[#FEB856] font-serif font-semibold text-2xl hover:bg-white hover:text-yellow-500">
                     Sign up for Excursion
                   </button>
                 </Link>

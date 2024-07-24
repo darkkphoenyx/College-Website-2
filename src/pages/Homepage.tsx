@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Homepage() {
   return (
     <>
-      <div className="bg-[#C4DFF2] w-full h-screen">
+      <div className="bg-[#C4DFF2] w-full h-screen bg-gradient-to-br from-[#a984f8] to-[#C1DCEE]">
         <div className="container mx-auto">
           <div className=" grid grid-flow-col grid-cols-2 gap-20 w-full mx-auto">
             <div className="p-10 pr-20 ml-10 w-[700px] ">

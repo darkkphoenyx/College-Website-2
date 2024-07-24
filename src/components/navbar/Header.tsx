@@ -20,7 +20,7 @@ export default function Header() {
           We're announcing the enrolement of this year, starting from July 10.
         </p>
       </div>
-      <div className="bg-white sticky top-0 w-[100%] border-gray-500 border-b">
+      <div className="bg-white sticky top-0 w-[100%] shadow-2xl">
         <div className=" w-full h-24 grid grid-flow-col container mx-auto overflow-hidden ">
           <div className="col-span-2">
             <Logo></Logo>

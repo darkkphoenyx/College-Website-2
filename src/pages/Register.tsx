@@ -2,9 +2,9 @@ export default function Register() {
   return (
     <>
       <div>
-        <div className=" h-max container mx-auto ">
+        <div className=" h-max container mx-auto  ">
           <div className="mx-6 grid h-full grid-cols-2 gap-2">
-            <div className="bg-[#C4DFF2] text-black rounded-2xl border-gray-500 p-8 border mt-10 h-fit shadow-2xl">
+            <div className="bg-[#C4DFF2] text-black rounded-2xl p-8 mt-10 h-fit bg-gradient-to-br from-[#C4DFEF] to-[#ffffff] shadow-2xl">
               <h1 className="text-center text-[#6A2DE9]  font-bold text-4xl">
                 Registration
               </h1>

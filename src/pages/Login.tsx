@@ -95,7 +95,7 @@ export default function Login() {
     <div className="h-screen w-full bg-[#C4DFF2]">
       <div className="container mx-auto">
         <div className="grid gap-5 grid-cols-2 h-full pt-20">
-          <div className="w-2/3 bg-white/50 border border-gray-800 rounded-xl p-8 mx-auto shadow-2xl">
+          <div className="w-2/3 bg-gradient-to-br from-[#C1DCEE] to-[#ffffff] rounded-xl p-8 mx-auto shadow-2xl">
             <h1 className="text-center text-5xl font-bold mb-12 text-[#6A2DE9]">
               Login
             </h1>
