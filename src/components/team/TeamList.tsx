@@ -47,8 +47,9 @@ const people = [
   {
     name: "Srizma Poudel",
     role: "Frontend Developer",
-    imageUrl: "",
-    link: "",
+    imageUrl:
+      "https://media.licdn.com/dms/image/D4D03AQH1Ju4kpzWnYg/profile-displayphoto-shrink_800_800/0/1721658908702?e=1727308800&v=beta&t=B-jjEproVQZcK68R0KMT7LGlCBYjw2fmlQgoQ1WW_Sg",
+    link: "https://www.linkedin.com/in/srizma-paudel/",
   },
   {
     name: "Sushmita Ghimire",
