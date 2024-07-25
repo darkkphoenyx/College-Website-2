@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
 return (
     <>
-    <div>
-    <div className="footer bg-zinc-700 text-black w-full h-56 py-3 ">
+    <div className="grid">
+    <div className=" bg-zinc-700 text-black w-full h-56 py-3 ">
         <div className="pt-5 h-full grid grid-cols-4">
             <div className="logo ml-5 pt-2">
                 <div className="w-10 h-10">

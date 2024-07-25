@@ -6,7 +6,7 @@ export default function Register() {
           <div className="mx-6 grid h-full grid-cols-2 gap-2">
             <div className="bg-[#C4DFF2] text-black rounded-2xl border-gray-500 p-8 border mt-10 h-fit">
               <h1 className="text-center  font-bold text-4xl">Registration</h1>
-              <form className="form text-md">
+              <form className="form text-md" >
                 <div className="input-box mt-6">
                   <label className="flex w-full text-md font-semibold">
                     Full Name
@@ -104,11 +104,9 @@ export default function Register() {
                   </div>
                 </div>
                 <div className="">
-                  <a href="#">
                     <button className="bg-[#6D2DF6] p-4 text-2xl w-full mt-8 rounded-lg font-semibold text-white">
                       SUBMIT
                     </button>
-                  </a>
                 </div>
               </form>
             </div>
