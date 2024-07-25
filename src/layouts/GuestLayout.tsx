@@ -1,5 +1,5 @@
 import Header from "../components/navbar/Header";
-import Footer from "../components/footer/Footer";
+// import Footer from "../components/footer/Footer";
 import { ReactNode } from "react";
 
 interface GuestLayoutProps {
@@ -15,7 +15,7 @@ export default function GuestLayout({ children }: GuestLayoutProps) {
       <div className="bg-white h-screen w-screen">
         <div className={`mx-auto transition-all duration-700`}>{children}</div>
       </div>
-      <Footer></Footer>
+      
     </div>
   );
 }

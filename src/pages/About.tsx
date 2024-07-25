@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/footer/Footer";
 
 export default function About() {
   return (
@@ -69,6 +70,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 }
