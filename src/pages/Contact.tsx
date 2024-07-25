@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="bg-white h-full py-5 ">
       <div className="w-full container h-screen grid grid-flow-col grid-cols-2 gap-5  mx-auto ">
-        <div className=" text-black contact-info px-5 mt-10 shadow-2xl  h-max p-11 rounded-2xl">
+        <div className=" text-black contact-info px-5 mt-10 shadow-2xl h-max p-11 rounded-2xl">
           <div className="text-justify w-full pr-5">
             <h1 className="text-5xl text-[#6A2DE9] font-bold">Get in touch</h1>
             <p className="mt-4 font-semibold">
