@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Homepage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="bg-[#C4DFF2] w-full h-screen bg-gradient-to-br from-[#a984f8] to-[#C1DCEE]">

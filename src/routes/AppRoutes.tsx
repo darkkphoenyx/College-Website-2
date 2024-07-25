@@ -7,6 +7,9 @@ import About from "../pages/About";
 import OurTeam from "../pages/OurTeam";
 import Contact from "../pages/Contact";
 import Register from "../pages/Register";
+import Forgotpassword from "../pages/Forgotpassword";
+import Resetpassword from "../pages/Resetpassword";
+import OtpCode from "../pages/OtpCode";
 
 export default function AppRoutes() {
   return (
@@ -18,6 +21,9 @@ export default function AppRoutes() {
         <Route path="/ourTeam" element={<OurTeam></OurTeam>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="/forgotPassword" element={<Forgotpassword></Forgotpassword>}></Route>
+        <Route path="/otpcode" element={<OtpCode></OtpCode>}></Route>
+        <Route path="/resetPassword" element={<Resetpassword></Resetpassword>}></Route> 
       </Routes>
     </GuestLayout>
   );

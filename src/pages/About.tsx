@@ -47,7 +47,6 @@ export default function About() {
               </h1>
             </div>
           </div>
-
           <div className="flex items-center justify-center mx-5">
             <img className="h-12 w-16 " src="./assets/bell.png" alt="bell" />
             <div>
