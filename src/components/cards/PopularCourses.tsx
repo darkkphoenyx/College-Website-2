@@ -3,19 +3,19 @@ const data = [
     id: 1,
     photoLink: "/assets/scienceStudents.png",
     course: "Science Faculty",
-    teacher: "Henry H. Garrick, Teacher",
+    teacher: "Ram Poudel, Coordinator/Teacher",
   },
   {
     id: 2,
     photoLink: "/assets/managementStudents.png",
     course: "Management Faculty",
-    teacher: "Henry H. Garrick, Teacher",
+    teacher: "Rishi Tejas, Coordinator/Teacher",
   },
   {
     id: 3,
     photoLink: "/assets/lawStudents.png",
     course: "Law Faculty",
-    teacher: "Henry H. Garrick, Teacher",
+    teacher: "Dinesh Karthik, Coordinator/Teacher",
   },
 ];
 
@@ -37,8 +37,8 @@ export default function PopularCourses() {
                     alt="science student photo"
                   />
                   <div className="pl-5 pt-5">
-                    <a href={card.course} target="_blank">
-                      <h1 className="text-[#4F3F39] font-serif hover:text-yellow-600">
+                    <a href="#">
+                      <h1 className="text-[#4F3F39] font-serif hover:text-yellow-500">
                         {card.course}
                       </h1>
                     </a>
