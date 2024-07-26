@@ -4,7 +4,7 @@ import Footer from "../components/footer/Footer";
 export default function About() {
   return (
     <>
-      <div className=" w-full h-full grid grid-flow-row bg-[url(/assets/background.png)] bg-cover bg-center bg-no-repeat">
+      <div className=" w-full h-max grid grid-flow-row bg-[url(/assets/background.png)] bg-cover bg-center bg-no-repeat">
         <div className="container mx-auto ">
           <div className="w-full grid grid-flow-col grid-cols-2">
             <div className="py-32 pr-10 w-[800px] pl-20">
@@ -35,7 +35,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="bg-[#FFFDD0] h-36 w-full flex items-center justify-center gap-16">
+        <div className="bg-[#FFFDD0] h-32 w-full flex items-center justify-center gap-16">
           <div className="flex items-center justify-center mx-5">
             <img
               className="h-16 w-16"

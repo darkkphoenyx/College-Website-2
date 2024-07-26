@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function Forgotpassword() {
   return (
     <>
-      <div className="h-screen w-full bg-slate-300 pt-40 pl-[40%]">
-        <form className="bg-blue-300 w-fit p-8 rounded-xl  shadow-2xl">
+      <div className="h-screen w-full bg-slate-300 flex items-center justify-center">
+        <form className="bg-blue-300 w-fit p-8 rounded-xl shadow-2xl">
           <h1 className="text-4xl font-bold text-center">Forgot password?</h1>
           <h1 className="text-md text-center">
             Enter your register email for verification

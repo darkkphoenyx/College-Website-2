@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Resetpassword() {
   return (
     <>
-      <div className="h-screen w-full bg-slate-300 pt-40 pl-[40%]">
+      <div className="h-screen w-full bg-slate-300 flex items-center justify-center">
         <form className="bg-blue-300 w-fit p-8 rounded-xl  shadow-2xl">
           <h1 className="text-4xl font-bold text-center">Reset Password</h1>
           <div className="mt-8">
