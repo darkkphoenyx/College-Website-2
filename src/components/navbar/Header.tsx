@@ -1,8 +1,18 @@
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../logo/Logo";
+import { RefObject, useEffect } from "react";
 
-export default function Header() {
+interface HeaderProps {
+  paRrf: RefObject<HTMLDivElement>; // Adjust the type according to the actual element or component
+}
+export default function Header({ paRrf }:HeaderProps) {
   const location = useLocation();
+  useEffect(() => {
+    paRrf.current?.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [location.pathname, paRrf]);
 
   const listStyle =
     // "list-none float-left text-md uppercase cursor-pointer text-black hover:text-slate-300 ml-28 transition-all";
