@@ -196,7 +196,7 @@ export default function About() {
           <div className="container mx-auto text-center mt-16">
             <h1 className="text-5xl text-white font-serif ">Testimonials</h1>
             <p className="text-white italic text-xl font-serif">
-              See what people say about our wonderful univerity
+              See what people say about our wonderful college
             </p>
             <div className=" mt-7 mx-auto px-10 w-3/5 grid grid-flow-col ">
               <div className=" mr-10">
