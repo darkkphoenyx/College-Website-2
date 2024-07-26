@@ -1,4 +1,3 @@
-
 import { Route, Routes } from "react-router-dom";
 import Login from "../pages/Login";
 import Homepage from "../pages/Homepage";
@@ -21,9 +20,15 @@ export default function AppRoutes() {
         <Route path="/ourTeam" element={<OurTeam></OurTeam>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
-        <Route path="/forgotPassword" element={<Forgotpassword></Forgotpassword>}></Route>
+        <Route
+          path="/forgotPassword"
+          element={<Forgotpassword></Forgotpassword>}
+        ></Route>
         <Route path="/otpcode" element={<OtpCode></OtpCode>}></Route>
-        <Route path="/resetPassword" element={<Resetpassword></Resetpassword>}></Route> 
+        <Route
+          path="/resetPassword"
+          element={<Resetpassword></Resetpassword>}
+        ></Route>
       </Routes>
     </GuestLayout>
   );
