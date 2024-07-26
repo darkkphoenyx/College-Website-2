@@ -69,6 +69,14 @@ export default function About() {
             </div>
           </div>
         </div>
+        <div className="w-full bg-white grid grid-flow-col grid-cols-2 p-5">
+          <div>
+
+          </div>
+          <div>
+            <img src="/assets/aboutus1.png" alt="about us page 1" />
+          </div>
+        </div>
       </div>
       <Footer></Footer>
     </>
